@@ -24,9 +24,9 @@ int main() {
 		cout << "Masukan Nama :";
 		cin.getline(mhs[i].nama, 25);
 		cout << "Alamat :";
-		cout << "Masukan Desa :";
+		cout << "\n\tMasukan Desa :";
 		cin.getline(mhs[i].alamat.desa, 20);
-		cout << "Masukan Kota :";
+		cout << "\tMasukan Kota :";
 		cin.getline(mhs[i].alamat.kota, 20);
 		cout << "Masukan Umur :";
 		cin >> mhs[i].umur;
